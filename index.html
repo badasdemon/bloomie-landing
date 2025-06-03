@@ -4,25 +4,46 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bloomie — Baby Growth Journal</title>
-  <meta name="description" content="Bloomie is a soft, personal baby photo journal app with voice notes, mood tags, and Google Drive backup.">
+  <meta name="description" content="Bloomie is a private baby photo journal app with mood tags, voice notes, and Google Drive backup.">
   <style>
-    body { font-family: sans-serif; text-align: center; padding: 3rem; background: #fff0f3; color: #333; }
-    h1 { color: #e85b81; font-size: 2.5rem; }
+    body { font-family: sans-serif; margin: 0; padding: 0; background: #fff5f7; color: #333; }
+    header, footer { text-align: center; padding: 2rem; background: #ffeaf0; }
+    main { padding: 2rem; max-width: 800px; margin: auto; text-align: center; }
+    h1 { color: #e85b81; }
+    .features, .previews { display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin-top: 2rem; }
+    .feature, .preview { width: 250px; background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 0 10px #eee; }
     a { color: #e85b81; text-decoration: none; }
-    footer { margin-top: 3rem; font-size: 0.9rem; color: #777; }
   </style>
 </head>
 <body>
-  <h1>🌸 Bloomie</h1>
-  <p><strong>They grow too fast. Capture a lovely moment.</strong></p>
-  <p>Bloomie is a private baby journal app for modern parents to save photo moments, mood, milestones, and voice memories — all backed up safely to their personal Google Drive.</p>
-  <p>
-    <a href="/privacy.html">Privacy Policy</a> | 
-    <a href="/terms.html">Terms of Service</a>
-  </p>
+  <header>
+    <img src="logo.png" alt="Bloomie logo" width="100" />
+    <h1>Bloomie</h1>
+    <p><strong>They grow too fast. Capture a lovely moment.</strong></p>
+  </header>
+
+  <main>
+    <section class="cta">
+      <p>Bloomie is a soft, personal baby journal app with photos, voice notes, and Google Drive backup.</p>
+      <p><a href="#download">Coming Soon on Android</a></p>
+    </section>
+
+    <section class="features">
+      <div class="feature"><h3>🍼 Track Baby Milestones</h3><p>Save emotional moments with mood, notes, and photos.</p></div>
+      <div class="feature"><h3>📂 Google Drive Backup</h3><p>All your memories are stored safely in your own Drive.</p></div>
+      <div class="feature"><h3>🎙️ Voice Diary</h3><p>Record feelings and baby sounds to keep the moment alive.</p></div>
+    </section>
+
+    <section class="previews">
+      <div class="preview"><img src="screenshot1.png" alt="Bloomie screen" width="100%"/></div>
+      <div class="preview"><img src="screenshot3.png" alt="Bloomie screen" width="100%"/></div>
+      <div class="preview"><img src="screenshot4.png" alt="Bloomie screen" width="100%"/></div>
+    </section>
+  </main>
+
   <footer>
-    &copy; 2025 Bloomie App. All rights reserved. <br/>
-    Contact: <a href="mailto:tangerinlabs@gmail.com">tangerinlabs@gmail.com</a>
+    <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+    <p>&copy; 2025 Bloomie App — <a href="mailto:tangerinlabs@gmail.com">Contact Us</a></p>
   </footer>
 </body>
 </html>
